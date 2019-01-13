@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6988c2f1-6867-4b0e-af06-573583373724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/META-INF/simple.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/CalPrime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/ClassicQuestion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/IntSplit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/ShuiXianHua.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/SumAaaa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/TestGrade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/WanShu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/sort/selectSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/CalPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/ClassicQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/IntSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/ShuiXianHua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/SumAaaa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/TestGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/WanShu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/yc/sort/selectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/BallBounce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simple/META-INF/simple.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/WanShu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/simple/cn/yc/simplePractice/WanShu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/yc/simplePractice/WanShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/yc/simplePractice/WanShu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/yc/sort/selectSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/ClassicQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -56,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/CalPrime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -64,17 +47,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/SumAaaa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="640">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/WanShu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/WanShu.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/BallBounce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="520">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -83,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/ShuiXianHua.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -92,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/IntSplit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -100,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/TestGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,13 +123,14 @@
         <option value="$PROJECT_DIR$/src/cn/yc/simplePractice/ClassicQuestion.java" />
         <option value="$PROJECT_DIR$/src/cn/yc/simplePractice/SumAaaa.java" />
         <option value="$PROJECT_DIR$/src/cn/yc/simplePractice/WanShu.java" />
+        <option value="$PROJECT_DIR$/src/cn/yc/simplePractice/BallBounce.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="49" />
-    <option name="y" value="23" />
-    <option name="width" value="1601" />
+    <option name="x" value="182" />
+    <option name="y" value="20" />
+    <option name="width" value="1658" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -146,8 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,7 +175,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547301811944" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547359397518" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -201,9 +195,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WanShu">
-    <configuration name="IntSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.yc.simplePractice.IntSplit" />
+  <component name="RunManager" selected="Application.BallBounce">
+    <configuration name="BallBounce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.yc.simplePractice.BallBounce" />
       <module name="simple" />
       <extension name="coverage">
         <pattern>
@@ -269,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BallBounce" />
         <item itemvalue="Application.WanShu" />
         <item itemvalue="Application.ShuiXianHua" />
         <item itemvalue="Application.SumAaaa" />
         <item itemvalue="Application.TestGrade" />
-        <item itemvalue="Application.IntSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -288,23 +282,24 @@
       <option name="presentableId" value="Default" />
       <updated>1547293335422</updated>
       <workItem from="1547293338260" duration="8402000" />
+      <workItem from="1547357109151" duration="2147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8402000" />
+    <option name="totallyTimeSpent" value="10549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
@@ -326,30 +321,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.32889125" />
+      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.24093817" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/yc/CalPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/TestGrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/yc/CalPrime.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/yc/sort/selectSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -360,42 +339,59 @@
     <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/ClassicQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/IntSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/ShuiXianHua.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/CalPrime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/SumAaaa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="640">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/ShuiXianHua.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/IntSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/TestGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/WanShu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="600">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/yc/simplePractice/BallBounce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
