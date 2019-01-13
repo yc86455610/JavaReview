@@ -16,18 +16,18 @@ public class TwoSum_167 {
     public static void main(String[] args) {
         int[] num1 = {2, 7, 11, 15};
         int target = 9;
-        Solution solution = new Solution();
+        Solution_167 solution = new Solution_167();
         System.out.println(Arrays.toString(solution.twoSum(num1, target)));
     }
 }
 
-class Solution {
+class Solution_167 {
     public int[] twoSum(int[] numbers, int target) {
-        int i = 0, j = numbers.length-1;
+        int i = 0, j = numbers.length - 1;
         while (i < j) {
             int sum = numbers[i] + numbers[j];
             if (sum == target) {
-                return new int[]{i+1, j+1};
+                return new int[]{i + 1, j + 1};
             } else if (sum < target) {
                 i++;
             } else {

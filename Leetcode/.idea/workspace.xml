@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45cec850-020c-45a3-83c7-999c46edb59e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/双指针/TwoSum_167.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/BallBounce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/Digital1234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/MulTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/SimpleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/SqrtDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/TestDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/双指针/SumOfSquareNumbers_633.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/双指针/ValidPalindrome_680.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/双指针/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/双指针/TwoSum_167.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/双指针/TwoSum_167.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/双指针/TwoSum_167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/双指针/TwoSum_167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple/out/production/simple/META-INF/simple.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/out/production/simple/cn/yc/simplePractice/BallBounce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/out/production/simple/cn/yc/simplePractice/BallBounce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/out/production/simple/cn/yc/simplePractice/WanShu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/out/production/simple/cn/yc/simplePractice/WanShu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/simple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/simple.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/BallBounce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/BallBounce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/CalPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/CalPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/ClassicQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/ClassicQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/Digital1234.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/Digital1234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/IntSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/IntSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/ShuiXianHua.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/ShuiXianHua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/SumAaaa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/SumAaaa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/TestGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/TestGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/WanShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/simplePractice/WanShu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple/src/cn/yc/sort/selectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple/src/cn/yc/sort/selectSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +37,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/双指针/TwoSum_167.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="445">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/双指针/SumOfSquareNumbers_633.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/双指针/ValidPalindrome_680.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,6 +80,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/双指针/TwoSum_167.java" />
+        <option value="$PROJECT_DIR$/src/双指针/SumOfSquareNumbers_633.java" />
+        <option value="$PROJECT_DIR$/src/双指针/ValidPalindrome_680.java" />
       </list>
     </option>
   </component>
@@ -101,14 +135,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547373548549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547384134739" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,7 +156,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ValidPalindrome_680">
+    <configuration name="SumOfSquareNumbers_633" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针.SumOfSquareNumbers_633" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="双指针.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSum_167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双指针.TwoSum_167" />
       <module name="Leetcode" />
@@ -136,8 +183,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidPalindrome_680" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双指针.ValidPalindrome_680" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="双指针.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome_680" />
+        <item itemvalue="Application.SumOfSquareNumbers_633" />
         <item itemvalue="Application.TwoSum_167" />
       </list>
     </recent_temporary>
@@ -152,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547370035196</updated>
-      <workItem from="1547370036634" duration="2936000" />
+      <workItem from="1547370036634" duration="9162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2936000" />
+    <option name="totallyTimeSpent" value="9162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="23" width="1601" height="1027" extended-state="0" />
@@ -168,9 +230,9 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16741501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16420783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -191,7 +253,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.29698524" />
+      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.21744709" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,8 +262,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/双指针/TwoSum_167.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="445">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/双指针/SumOfSquareNumbers_633.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/双指针/ValidPalindrome_680.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>

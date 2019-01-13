@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package cn.yc.simplePractice;
 
 
@@ -31,3 +32,17 @@ public class Digital1234 {
     }
 
 }
+=======
+package cn.yc.simplePractice;
+
+
+/**
+ * 有1、2、3、4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
+ *
+ *
+ *
+ * */
+public class Digital1234 {
+
+}
+>>>>>>> 30405c8bd2bd0ee42579c2292845c0d30fd7317e
