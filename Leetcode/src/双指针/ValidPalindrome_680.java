@@ -21,6 +21,8 @@ class Solution_680 {
         int i = -1, j = s.length();
         while (++i < --j) {
             if (s.charAt(i) != s.charAt(j)) {
+                // 无法确认那个字符是多余的，所有左右都需验证一下
+                // 只要有一个是回文数，就true返回
                 return isPalindrome(s, i, j - 1) || isPalindrome(s, i + 1, j);
             }
         }
