@@ -21,6 +21,7 @@ public class SumOfSquareNumbers_633 {
 class Solution_633 {
     public boolean judgeSquareSum(int c) {
         int i = 0, j = (int) Math.sqrt(c);
+        //两个数可以相等,8 = 2*2+2*2
         while (i <= j) {
             int powSum = i * i + j * j;
             if (powSum == c) {

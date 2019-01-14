@@ -1,5 +1,7 @@
 package 双指针;
 
+import java.util.List;
+
 /**
  * Input:
  * s = "abpcplea", d = ["ale","apple","monkey","plea"]
@@ -14,8 +16,30 @@ package 双指针;
  * */
 
 public class LongestWordDeleting_524 {
+    public static void main(String[] args) {
+
+
+    }
+
 
 
 }
 
-class 
+class Solution {
+    public String findLongestWord(String s, List<String> d) {
+        String longestWord = "";
+        for (String target: d){
+            int l1 = longestWord.length(), l2 = target.length();
+
+
+        }
+
+
+        return longestWord;
+    }
+
+    private boolean isValid(String s, String target){
+        int i = 0, j = 0 ;
+
+    }
+}
