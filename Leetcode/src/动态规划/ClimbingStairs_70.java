@@ -19,17 +19,17 @@ public class ClimbingStairs_70 {
     public static void main(String[] args) {
         Solution_70 solution = new Solution_70();
 
-        System.out.println(solution.climbStairs(5));
+        System.out.println(solution.climbStairs(3));
     }
 
 }
 
 class Solution_70 {
     public int climbStairs01(int n) {
-        if(n==1){
+        if (n == 1) {
             return 1;
         }
-        int[] dp = new int[n+1];
+        int[] dp = new int[n + 1];
         dp[1] = 1;
         dp[2] = 2;
         for (int i = 3; i <= n; i++) {
@@ -38,14 +38,27 @@ class Solution_70 {
         return dp[n];
     }
 
-    public int climbStairs(int n ){
+    public int climbStairs02(int n) {
         int prev = 0;
         int cur = 1;
-        for(int i=1;i<=n;i++){
+        for (int i = 1; i <= n; i++) {
             int temp = cur;
             cur += prev;
             prev = temp;
         }
         return cur;
+    }
+
+    public int climbStairs(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        int pre2 = 1, pre1 = 2;
+        for (int i = 3; i <= n; i++) {
+            int cur = pre1 + pre2;
+            pre2 = pre1;
+            pre1 = cur;
+        }
+        return pre1;
     }
 }
