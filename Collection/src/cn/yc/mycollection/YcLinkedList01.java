@@ -27,7 +27,7 @@ public class YcLinkedList01 {
             last = node;
         } else {
 
-            node.previos = last;
+            node.previous = last;
             node.next = null;
 
             last.next = node;

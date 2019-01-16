@@ -1,21 +1,43 @@
 package cn.yc.mycollection;
 
-import javax.lang.model.element.Element;
-
 /**
  * 自定义链表
- * 添加remove方法
+ * 增加小的封装、添加泛型
  */
 
-public class YcLinkedList03 {
+public class YcLinkedList05<E> {
 
     private Node first;
     private Node last;
 
     private int size;
+    private Node temp;
+
+    //插入节点
+    public void add(int index, E element) {   //shift+f6
+
+        checkRange(index);
+
+        Node newNode = new Node(element);
+        Node temp = getNode(index);
+
+        if (temp != null) {
+            Node prev = temp.previous;
+
+            prev.next = newNode;
+            newNode.previous = prev;
+
+            newNode.next = temp;
+            temp.previous = newNode;
+
+        }
+    }
 
     //添加remove方法
     public void remove(int index) {
+
+        checkRange(index);
+
         Node temp = getNode(index);
 
         if (temp != null) {
@@ -45,20 +67,26 @@ public class YcLinkedList03 {
 
     //添加get方法
     //["a","b","c","d","e"]  index=2
-    public Object get(int index) {
+    public E get(int index) {
 //        System.out.println(size);
 
+        checkRange(index);
+
+        Node temp = getNode(index);
+
+        return temp != null ? (E) temp.element : null;
+    }
+
+    private void checkRange(int index) {
         if (index < 0 || index > size - 1) {
             throw new RuntimeException("索引数字不合法：" + index);
         }
-        Node temp = getNode(index);
-
-        return temp != null ? temp.element : null;
     }
 
-
     //封装由index得到的node
-    public Node getNode(int index) {
+    private Node getNode(int index) {
+
+        checkRange(index);
 
         Node temp = null;
 
@@ -80,8 +108,8 @@ public class YcLinkedList03 {
 
     //[]
     //["a","b"]
-    public void add(Object obj) {
-        Node node = new Node(obj);
+    public void add(E element) {
+        Node node = new Node(element);
 
         if (first == null) {
 //          node.previos = null;
@@ -117,21 +145,16 @@ public class YcLinkedList03 {
     }
 
     public static void main(String[] args) {
-        YcLinkedList03 list = new YcLinkedList03();
+        YcLinkedList05<String> list = new YcLinkedList05<>();
 
         list.add("a");
         list.add("b");
         list.add("c");
         list.add("d");
         list.add("e");
-        list.add("f");
 
         System.out.println(list);
-        list.remove(3);
-        System.out.println(list);
-        list.remove(0);
-        System.out.println(list);
-        list.remove(3);
-        System.out.println(list);
+
+        System.out.println(list.get(1));
     }
 }
