@@ -45,7 +45,7 @@ public class YcArrayList02<E> {
     }
 
     public static void main(String[] args) {
-        YcArrayList02 y2 = new YcArrayList02(20);
+        YcArrayList02<String> y2 = new YcArrayList02<>(20);
         y2.add("aa");
         y2.add("bb");
 

@@ -6,8 +6,6 @@ public class Node {
     Node next;    //后继结点
     Object element;  //元素数据
 
-
-
     public Node(Node previos, Node next, Object element) {
         super();
         this.previous = previos;

@@ -5,7 +5,8 @@ import javax.xml.stream.events.EndElement;
 import java.rmi.Remote;
 
 /**
- * 自定义实现一个ArrayList，体会底层原理
+ * 自定义实现一个ArrayList
+ * <p>
  * 已有add、set、get方法
  * <p>
  * 增加remove方法(element and index)
@@ -21,7 +22,6 @@ public class YcArrayList05<E> {
     //构造方法,无参默认
     public YcArrayList05() {
         elementData = new Object[DEFAULT_CAPACITY];
-
     }
 
     //构造方法的重载
@@ -49,7 +49,7 @@ public class YcArrayList05<E> {
     //添加add方法
     public void add(E element) {
         //什么时候扩容？？
-        if (size == elementData.length) {
+        if (size == elementData.length) {   //size=10
             //怎么扩容？？扩容操作
             //10--->10+10>>2=15
             Object[] newArray = new Object[elementData.length + (elementData.length >> 1)];
@@ -64,9 +64,10 @@ public class YcArrayList05<E> {
 
     //添加get方法
     public E get(int index) {
-        checkRange(index);
 
+        checkRange(index);
         return (E) elementData[index];
+
     }
 
     //添加set方法
@@ -85,17 +86,18 @@ public class YcArrayList05<E> {
         }
     }
 
+    //remove方法，通过查找元素来remove
     public void remove(E element) {
         //element，把他和所有元素挨个比较，获得第一个比较为true返回
         for (int i = 0; i < size; i++) {
             if (element.equals(get(i))) {   //容器中做的所有比较都使用equals方法,而不是==
-
                 //把该元素从此处移除????
                 remove(i);
             }
         }
     }
 
+    //remove方法，通过index来remove
     public void remove(int index) {
         //a,b,c,d,e,f,g,h
         //a,b,c,e,f,g,h,h
@@ -108,7 +110,7 @@ public class YcArrayList05<E> {
         elementData[--size] = null;
     }
 
-
+    //重写toString方法
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -123,7 +125,7 @@ public class YcArrayList05<E> {
     }
 
     public static void main(String[] args) {
-        YcArrayList05 y2 = new YcArrayList05();
+        YcArrayList05<String> y2 = new YcArrayList05<>();
         for (int i = 0; i < 40; i++) {
             y2.add("yc" + i);
         }
@@ -132,7 +134,7 @@ public class YcArrayList05<E> {
 
         System.out.println(y2);
 
-        System.out.println(y2.get(39));
+        System.out.println(y2.get(5));
 
         y2.remove(3);
         y2.remove("yc11");

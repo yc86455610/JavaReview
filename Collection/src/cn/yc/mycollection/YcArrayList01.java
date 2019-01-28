@@ -22,10 +22,12 @@ public class YcArrayList01 {
     }
 
     public YcArrayList01(int capacity){
+
         elementData = new Object[capacity];
     }
 
     public void add(Object obj) {
+
         elementData[size++] = obj;
     }
 
