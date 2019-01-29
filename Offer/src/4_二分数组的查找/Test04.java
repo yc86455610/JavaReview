@@ -16,20 +16,21 @@ import java.rmi.MarshalException;
  * Given target = 20, return false.
  * <p>
  * 要求时间复杂度 O(M + N)，空间复杂度 O(1)。
- *
- *也属于双指针问题
+ * <p>
+ * 也属于双指针问题
  */
 
 class Test04 {
     public static void main(String[] args) {
         Solution04 solution04 = new Solution04();
-        int target = 100;
+        int target = 1;
         int[][] matrix = {
                 {1, 4, 7, 11, 15},
                 {2, 5, 8, 12, 19},
                 {3, 6, 9, 16, 22},
                 {10, 13, 14, 17, 24},
-                {18, 21, 23, 26, 30}};
+                {18, 21, 23, 26, 30}
+        };
         System.out.println(solution04.find(target, matrix));
     }
 }
@@ -44,8 +45,8 @@ class Solution04 {
 
         //从右上角开始遍历
         //也可以从左下角开始遍历
-        int r = rows-1, c = 0;
-        while (r >=0 && c <=matrix[0].length-1) {
+        int r = rows - 1, c = 0;
+        while (r >= 0 && c <= matrix[0].length - 1) {
             if (target == matrix[r][c]) {
                 return true;
             } else if (target < matrix[r][c]) {

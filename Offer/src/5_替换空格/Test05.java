@@ -8,15 +8,15 @@
  * "A%20B"
  */
 
-class Test06 {
+class Test05 {
     public static void main(String[] args) {
-        Solution06 solution06 = new Solution06();
+        Solution05 solution05 = new Solution05();
         StringBuffer str = new StringBuffer("A B");
-        System.out.println(solution06.replaceSpace(str));
+        System.out.println(solution05.replaceSpace(str));
     }
 }
 
-class Solution06 {
+class Solution05 {
     public String replaceSpace(StringBuffer str) {
         int P1 = str.length() - 1;
         for (int i = 0; i <= P1; i++) {
