@@ -1,42 +1,42 @@
 /**
- * 将一个字符串中的空格替换成 "%20"。
- * <p>
- * Input:
- * "A B"
- * <p>
- * Output:
- * "A%20B"
+ * 把只包含因子 2、3 和 5 的数称作丑数（Ugly Number）。
+ * 例如 6、8 都是丑数，但 14 不是，因为它包含因子 7。
+ * 习惯上我们把 1 当做是第一个丑数。求按从小到大的顺序的第 N 个丑数。
  */
 
 
 class Test {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        StringBuffer str = new StringBuffer("A B C");
-        System.out.println(solution.replaceString(str));
-//        System.out.println(str.append('D'));
+        System.out.println(solution.GetUglyNumber_Solution(100));
     }
 }
 
 class Solution {
-    public String replaceString(StringBuffer str) {
-        int p1 = str.length() - 1;
-        for (int i = 0; i <= p1; i++) {
-            if (str.charAt(i) == ' ')
-                str.append("  ");
+
+    public int GetUglyNumber_Solution(int N) {
+        if (N <= 6)
+            return N;
+
+        int i2 = 0, i3 = 0, i5 = 0;
+        int[] dp = new int[N];
+        dp[0] = 1;
+
+        for (int i = 1; i < N; i++) {
+            int next2 = dp[i2] * 2, next3 = dp[i3] * 3, next5 = dp[i5] * 5;
+            dp[i] = Math.min(next2, Math.min(next3, next5));
+
+            if (dp[i] == next2)
+                i2++;
+            if (dp[i] == next3)
+                i3++;
+            if (dp[i] == next5)
+                i5++;
         }
 
-        int p2 = str.length() - 1;
-        while (p1 >= 0 && p2 > p1) {
-            char c = str.charAt(p1--);
-            if (c == ' ') {
-                str.setCharAt(p2--, '0');
-                str.setCharAt(p2--, '2');
-                str.setCharAt(p2--, '%');
-            } else {
-                str.setCharAt(p2--, c);
-            }
-        }
-        return str.toString();
+
+        return dp[N - 1];
     }
+
+
 }
