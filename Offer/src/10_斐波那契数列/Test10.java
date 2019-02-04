@@ -1,6 +1,7 @@
 import jdk.swing.interop.SwingInterOpUtils;
 
 import java.sql.ResultSet;
+import java.util.Arrays;
 
 /**
  * 10.1 斐波那契数列, 求斐波那契数列的第 n 项，n <= 39。
@@ -15,6 +16,7 @@ import java.sql.ResultSet;
  * <p>
  * 10.4 变态跳台阶一只青蛙一次可以跳上 1 级台阶，也可以跳上 2 级... 它也可以跳上 n 级。
  * 求该青蛙跳上一个 n 级的台阶总共有多少种跳法。
+ * 经过证明可以得出f(n)是一个等比数列
  */
 
 class Test10 {
@@ -23,7 +25,8 @@ class Test10 {
 //        System.out.println(solution10.Fibonacci_1(4));
 //        System.out.println(solution10.Fibonacci(4));
 //        System.out.println(solution10.JumpFloor(4));
-        System.out.println(solution10.RectCover(4));
+//        System.out.println(solution10.RectCover(4));
+        System.out.println(solution10.JumpFloorII(4));
 
     }
 }
@@ -77,15 +80,22 @@ class Solution10 {
         int pre2 = 1, pre1 = 2;
         int result = 0;
         for (int i = 3; i <= n; i++) {
-            result =pre1 + pre2;
+            result = pre1 + pre2;
             pre2 = pre1;
             pre1 = result;
         }
         return result;
     }
 
-    public int JumpFloorII(int target){
-
+    public int JumpFloorII(int target) {
+        int[] dp = new int[target];
+        Arrays.fill(dp, 1);
+        for (int i = 1; i < target; i++) {
+            for (int j = 0; j < i; j++) {
+                dp[i] += dp[j];
+            }
+        }
+        return dp[target - 1];
     }
 
 }
