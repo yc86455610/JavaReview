@@ -14,5 +14,8 @@ public class IntersectionOfTwoLinkedLists_160 {
 }
 
 class Solution_160 {
-    public ListNode getIntersectionNode(ListNode head)
+//    public ListNode getIntersectionNode(ListNode head){
+//
+//    }
+
 }

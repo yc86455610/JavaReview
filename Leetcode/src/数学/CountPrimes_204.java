@@ -21,6 +21,21 @@ public class CountPrimes_204 {
 
 class Solution_204 {
     public int countPrimes(int n) {
+//        boolean[] notPrimes = new boolean[n];
+//        int count = 0;
+//        for (int i = 2; i < n; i++) {
+//            if (notPrimes[i]) {
+//                continue;
+//            }
+//
+//            count++;
+//            // 从 i * i 开始，因为如果 k < i，那么 k * i 在之前就已经被去除过了
+//            for (int j = i * i; j < n; j += i) {
+//                notPrimes[j] = true;   //都是合数（非素数）
+//            }
+//        }
+//
+//        return count;
         boolean[] notPrimes = new boolean[n];
         int count = 0;
         for (int i = 2; i < n; i++) {
@@ -29,12 +44,10 @@ class Solution_204 {
             }
 
             count++;
-            // 从 i * i 开始，因为如果 k < i，那么 k * i 在之前就已经被去除过了
             for (int j = i * i; j < n; j += i) {
-                notPrimes[j] = true;   //都是合数（非素数）
+                notPrimes[j] = true;
             }
         }
-
         return count;
     }
 }

@@ -1,7 +1,5 @@
 package cn.yc.mycollection;
 
-import org.w3c.dom.ls.LSException;
-
 /**
  * 自定义链表
  */
@@ -12,7 +10,6 @@ public class YcLinkedList01 {
     private Node last;
 
     private int size;
-
 
     //[]
     //["a","b"]
@@ -34,7 +31,6 @@ public class YcLinkedList01 {
             last = node;
 
         }
-
     }
 
     @Override
