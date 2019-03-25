@@ -15,10 +15,10 @@
 class Test03 {
     public static void main(String[] args) {
         Solution03 solution = new Solution03();
-        int[] nums = {2,3,1,0,2,5};
+        int[] nums = {2, 3, 1, 0, 2, 5};
         int length = 6;
-        int[] duplication = {};
-
+        int[] duplication = new int[length];
+        System.out.println(solution.duplicate(nums, length, duplication));
     }
 }
 

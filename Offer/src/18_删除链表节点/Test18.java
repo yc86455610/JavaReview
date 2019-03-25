@@ -17,8 +17,8 @@ class Test18 {
 }
 
 class ListNode {
-    int val;
-    ListNode next = null;
+    public int val;
+    public ListNode next = null;
 
     public ListNode(int val) {
         this.val = val;
@@ -35,10 +35,14 @@ class Solution18 {
             tobeDelete.val = next.val;
             tobeDelete.next = next.next;
         } else {
-            ListNode cur = head;
-            while (cur.next != tobeDelete)
-                cur = cur.next;
-            cur.next = null;
+            //只有一个节点，就是头节点
+            if (tobeDelete == head) return null;
+            else {
+                ListNode cur = head;
+                while (cur.next != tobeDelete)
+                    cur = cur.next;
+                cur.next = null;
+            }
         }
         return head;
     }
