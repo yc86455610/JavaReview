@@ -1,4 +1,4 @@
-package TestTreeNode;
+import TestTreeNode.TreeNode;
 
 //数的深度
 public class maxDepth {

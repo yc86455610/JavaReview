@@ -1,4 +1,4 @@
-package TestTreeNode;
+import TestTreeNode.TreeNode;
 
 //归并两棵树
 public class MergeTwoBinaryTrees {
