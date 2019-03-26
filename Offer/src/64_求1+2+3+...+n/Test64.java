@@ -16,6 +16,7 @@ class Test64 {
 class Solution64 {
     public int Sum_Solution(int n) {
         int sum = n;
+        //短路与，第一项是false不再执行第二项
         boolean b = (n > 0) && ((sum += Sum_Solution(n - 1)) > 0);
         return sum;
     }
