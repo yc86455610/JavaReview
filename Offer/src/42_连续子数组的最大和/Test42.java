@@ -13,13 +13,12 @@ class Test42 {
 
 class Solution42 {
     public int FindGreatestSumOfSubArray(int[] nums) {
-        if (nums == null || nums.length == 0)
-            return 0;
+        if (nums == null || nums.length == 0) return 0;
         int greatestSum = Integer.MIN_VALUE;
         int sum = 0;
         for (int val : nums) {
             sum = sum <= 0 ? val : sum + val;
-            greatestSum = Math.max(greatestSum, sum);
+            greatestSum = Math.max(sum, greatestSum);
         }
         return greatestSum;
     }

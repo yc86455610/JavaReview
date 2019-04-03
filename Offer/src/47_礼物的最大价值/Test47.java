@@ -49,11 +49,6 @@ class Solution47 {
 
         }
 
-        for (int j : dp) {
-            System.out.println(j);
-        }
-
-
         System.out.println("#####################");
         return dp[n - 1];
     }

@@ -1,6 +1,9 @@
+import org.w3c.dom.ls.LSInput;
+
 import javax.swing.text.html.HTML;
 import java.awt.*;
 import java.lang.invoke.CallSite;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import java.util.Arrays;
@@ -24,7 +27,6 @@ class Test57 {
         int[] nums = {2, 3, 4, 5};
         int target = 9;
 //        System.out.println(solution57.FindNumbersWithSum(nums, target));
-
         System.out.println(solution57.FindContinuousSequence(100));
     }
 }
@@ -32,13 +34,12 @@ class Test57 {
 class Solution57 {
     public ArrayList<Integer> FindNumbersWithSum(int[] nums, int target) {
 //        ArrayList<Integer> list = new ArrayList<Integer>();
-
         int i = 0, j = nums.length - 1;
         while (i < j) {
             int sum = nums[i] + nums[j];
-            if (target == sum) {
+            if (sum == target)
                 return new ArrayList<>(Arrays.asList(nums[i], nums[j]));
-            } else if (sum < target)
+            else if (sum < target)
                 i++;
             else
                 j--;
@@ -59,9 +60,9 @@ class Solution57 {
                 curSum += end;
             } else {
                 ArrayList<Integer> list = new ArrayList<>();
-                for (int i = start; i <= end; i++)
+                for (int i = start; i <= end; i++) {
                     list.add(i);
-
+                }
                 ret.add(list);
                 curSum -= start;
                 start++;
@@ -69,7 +70,6 @@ class Solution57 {
                 curSum += end;
             }
         }
-
         return ret;
     }
 }
