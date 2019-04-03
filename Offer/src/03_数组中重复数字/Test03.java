@@ -31,6 +31,7 @@ class Test03 {
 }
 
 class Solution03 {
+    //将值为i的元素调整到第i个位置上
     public boolean duplicate(int[] nums, int length, int[] duplication) {
         if (nums == null || length <= 0)
             return false;
