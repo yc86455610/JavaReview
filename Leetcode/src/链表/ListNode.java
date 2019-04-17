@@ -1,12 +1,10 @@
 package 链表;
 
-public class ListNode<E> {
-    public E data;
-    public ListNode next;
+public class ListNode {
+    int val;
+    ListNode next = null;
 
-    public ListNode(E data) {
-        this.data = data;
-        this.next = null;
+    ListNode(int x) {
+        this.val = x;
     }
 }
-
