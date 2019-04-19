@@ -53,8 +53,8 @@ class solutionBinaryTrees {
      * 中序遍历 inorder = [9,3,15,20,7]
      *
      * */
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-
-    }
+//    public TreeNode buildTree(int[] preorder, int[] inorder) {
+//
+//    }
 }
 
