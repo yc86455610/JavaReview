@@ -1,5 +1,7 @@
 package 字符串和数组;
 
+import javax.xml.transform.SourceLocator;
+
 public class palindrome {
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -13,13 +15,40 @@ public class palindrome {
 
         String str3 = "babad";
         String str4 = "cbbd";
-        System.out.println(solution.longestPalindrome(str3));
+//        System.out.println(solution.longestPalindrome(str3));
 //        System.out.println(solution.longestPalindrome2(str3));
 //        System.out.println(solution.longestPalindrome2(str4));
+
+        String str5 = "abcba";
+        String str6 = "abccba";
+        System.out.println(solution.isPalindrome_simple1(str5));
+        System.out.println(solution.isPalindrome_simple1(str6));
+
+        System.out.println(solution.isPalindrome_simple2(str5));
+        System.out.println(solution.isPalindrome_simple2(str6));
     }
 }
 
 class Solution {
+    //判断一个字符串是回文字符串
+    public boolean isPalindrome_simple1(String str) {
+        //StringBuffer和StringBuilder有内置的reverse方法
+        if (str == null) return false;
+        StringBuilder sb = new StringBuilder(str);
+        return sb.reverse().toString().equals(str);
+    }
+
+    //遍历，首尾字符对比
+    public boolean isPalindrome_simple2(String str) {
+        if (str == null) return false;
+        int length = str.length();
+        for (int i = 0; i < length / 2; i++) {
+            if (str.charAt(i) != str.charAt(length - i - 1))
+                return false;
+        }
+        return true;
+    }
+
     //9、判断一个数字是否是回文数
     public boolean isPalindrome(int x) {
         if (x == 0) return true;
