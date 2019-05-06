@@ -31,6 +31,7 @@ class Solution29 {
             //添加8，12，16
             for (int i = r1 + 1; i <= r2; i++)
                 ret.add(matrix[i][c2]);
+
             if (r1 != r2) {
                 for (int i = c2 - 1; i >= c1; i--) {
                     ret.add(matrix[r2][i]);

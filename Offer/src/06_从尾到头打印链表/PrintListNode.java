@@ -6,13 +6,16 @@ public class PrintListNode {
     //栈
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         Stack<Integer> stack = new Stack<>();
+        ArrayList<Integer> ret = new ArrayList<>();
+
         while (listNode != null) {
             stack.add(listNode.val);
             listNode = listNode.next;
         }
-        ArrayList<Integer> ret = new ArrayList<>();
-        while (!stack.isEmpty())
+
+        while (!stack.isEmpty()) {
             ret.add(stack.pop());
+        }
         return ret;
     }
 
